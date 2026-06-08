@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 export const metadata: Metadata = {
-  title: 'Typing Speed Test India — SSC, LDC, High Court, Hindi & English',
+  title: 'Typing Speed Test India - SSC, LDC, High Court, Hindi & English',
   description: 'Free online typing speed test for Indian government exams. Practice SSC CGL, LDC typing in English and Hindi. Check WPM and accuracy.',
 }
 export default function RootLayout({children}:{children:React.ReactNode}){
