@@ -221,7 +221,7 @@ function TestInner() {
               ref={inputRef}
               value={typed}
               onChange={handleInput}
-              disabled={status === 'done'}
+              disabled={(status as string) === 'done'}
               placeholder={status === 'ready' ? (isHindi ? 'यहाँ टाइप करना शुरू करें...' : 'Start typing here...') : ''}
               autoFocus
               spellCheck={false}
